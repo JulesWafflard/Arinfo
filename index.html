@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Snowboard Compagny</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <script href="js/script-js"></script>
+</head>
+
+<header>
+    <nav>
+        <ul id="un">
+            <li><img src="images/LOGO.png"></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="burger-menu">
+                <li><a href="#snowboardcompagny">Home</a></li>
+                <li><a href="#snowboards">snowboards</a></li>
+                <li><a href="#aboutus">about us</a></li>
+                <li><a href="#features">features</a></li>
+                <li><a href="#footer">footer</a></li>
+            </div>
+        </ul>
+        <ul id="deux">
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-shopping-bag"></i></li>
+            <li><i class="fas fa-euro-sign"></i></li>
+        </ul>
+    </nav>
+    <section id="snowboardcompagny">
+        <h1>snowboard compagny</h1>
+        <button> <a href="#aboutus">see details</a></button>
+        </div>
+    </section>
+</header>
+
+<body>
+    <section id="snowboards">
+        <h2>snowboards</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="./images/snowboard1.png">
+            </div>
+
+
+            <div class="mySlides fade">
+                <img src="./images/snowboard2.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/snowboard3.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/snowboard4.png">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div id="alldots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <h3>snowboard extreme series</h3>
+    </section>
+
+    <section id="aboutus">
+        <div id="test">
+            <article>
+                <h2>the mountain snowboarding</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla consequuntur quaerat nemo natus
+                    blanditiis aperiam voluptatum, unde ab culpa accusantium sapiente architecto vero, incidunt,
+                    praesentium ex qui cum. Pariatur, sit.blanditiis aperiam voluptatum, unde ab culpa accusantium
+                    sapiente architecto vero, incidunt, praesentium ex qui cum. Pariatur, sit.</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sit libero dolorem, totam,
+                    molestias rem perspiciatis atque sed doloremque eius porro, eos doloribus voluptatibus eveniet
+                    dolore inventore possimus, veritatis voluptatum!eos doloribus voluptatibus eveniet dolore inventore
+                    possimus, veritatis voluptatum!</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>features</h2>
+        <p><i class="fas fa-times"></i></p>
+        <div id="galerie">
+            <div class="vignettes">
+                <img class="imgmodal" src="./images/img%201.png" alt="" width="220px" height="160px">
+                <p>Lorem ipsum dolor sit amet, consectetur. </p>
+            </div>
+            <div class="vignettes">
+                <img class="imgmodal" src="./images/img%202.jpg" alt="" width="220px" height="160px">
+                <p>Lorem ipsum dolor sit amet, consectetur. </p>
+            </div>
+            <div class="vignettes">
+                <img class="imgmodal" src="./images/img%203.jpg" alt="" width="220px" height="160px">
+                <p>Lorem ipsum dolor sit amet, consectetur. </p>
+            </div>
+            <div class="vignettes">
+                <img class="imgmodal" src="./images/img%204.jpg" alt="" width="220px" height="160px">
+                <p>Lorem ipsum dolor sit amet, consectetur. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <footer id="footer">
+        <div id="tout">
+            <div class="colones">
+                <h4>products</h4>
+                <ul>
+                    <li>Mens</li>
+                    <li>Womens</li>
+                    <li>Youth</li>
+                </ul>
+            </div>
+
+            <div class="colones">
+                <h4>about</h4>
+                <ul>
+                    <li>Careers and Interneships</li>
+                    <li>Sponsorships</li>
+                    <li>Team</li>
+                    <li>Catalog Request / Download</li>
+                </ul>
+            </div>
+
+            <div class="colones">
+                <h4>customer support</h4>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Shipping and order tracking</li>
+                    <li>Easy Returns</li>
+                    <li>Warranty</li>
+                    <li>Remplacement Brinding parts</li>
+                </ul>
+            </div>
+
+            <div id="rs">
+                <h4>newsletter</h4>
+                <form>
+                    <input type="text" id="fname" name="fname" value="Enter your email">
+                </form>
+
+                <ul id="trs">
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-pinterest-p"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mention">
+            <ul>
+                <li><i class="far fa-copyright"> 2014 Mountain snoboards</i></li>
+                <li><img src="./images/flag.png" alt=""> Change Region</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/slider.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/burger-menu.js"></script>
+
+</body>
+
+
+</html>
